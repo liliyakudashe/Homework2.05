@@ -1,5 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        boolean entrance = Data.analysis("login","nologin","login+");
+        if (entrance){
+            System.out.println("Данные верные");
+        } else {
+            System.out.println("Данные не верные");
+        }
     }
+
+
 }
